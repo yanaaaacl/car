@@ -60,13 +60,18 @@ height: 80px;
 .basket{
   position:  relative;
 }
-.basket span{
-  font-size: 12px;
-  width: 12px;
-  height: 12px;
+.basket--on span{
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
   background-color: #000;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
   color: #fff;
-  
+  position: absolute;
+  line-height: 0;
+  align-items: center;
+  bottom: 0;
+  right: -2px;
+  justify-content: center;  
 }
