@@ -75,3 +75,28 @@ height: 80px;
   right: -2px;
   justify-content: center;  
 }
+.top{
+  min-height: calc(100vh - 81px);
+  background-image: url(../images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.title{
+  font-size: 96px;
+  line-height: 110px;
+  padding-top: 230px;
+  margin-bottom: 10px;
+
+}
+.subtitle{
+  font-size: 36px;
+  line-height: 41px;
+  margin-bottom: 5px;
+
+}
+.top_text{
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 50px;
+}
