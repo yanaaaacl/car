@@ -84,19 +84,40 @@ height: 80px;
 }
 .title{
   font-size: 96px;
-  line-height: 110px;
-  padding-top: 230px;
+  padding-top: 16%;
   margin-bottom: 10px;
 
 }
 .subtitle{
   font-size: 36px;
-  line-height: 41px;
   margin-bottom: 5px;
 
 }
 .top_text{
   font-size: 13px;
-  line-height: 15px;
   margin-bottom: 50px;
+}
+.buy-btn{
+cursor: pointer;
+border: none;
+background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%); 
+display: flex;
+padding: 1px;
+text-transform: uppercase;
+
+
+}
+.buy-btn_text{
+color: #F6F4F5;
+font-weight: 700;
+padding: 20px 110px;
+}
+.buy-btn_price{
+background-color: #F6F4F5;
+font-weight: 700;
+padding: 20px 105px;
+}
+.buy_text{
+  margin-top: 10px;
+  font-size: 13px;
 }
